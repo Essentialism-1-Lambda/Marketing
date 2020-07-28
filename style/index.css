@@ -183,10 +183,13 @@ footer a{
     margin:3%;
     color:#606060;
     margin-top:2%;
-    font-size:4vw;
     margin:3%;
-    
-   
+    text-decoration: none;
+    border: 1px solid #606060;
+    border-radius:50px;
+    font-size:3vw;
+    padding:2%;
+    width:50%;
 }
 .team-member-heading{
     margin-top:10%;
