@@ -19,6 +19,6 @@ I started by going to picsum and finding a picture that I found simple and relax
 
 The theme of the project was "essentialism", the art of giving your time and attention to the things that are essential to your values and and that enhance your life. Because of this we decided on a minimalist design. 
 
-I decided to build a marketing page that used a lot of white space. I chose a light beige background with a grayish font color to appear more muted.  I chose a slideshow as a way of conveying the needed information because I didn't want to clutter up the page with a lot of text at once.
+I decided to build a marketing page that used a lot of white space. I chose a light blue/gray background with a grayish font color to appear more muted.  I chose a slideshow as a way of conveying the needed information because I didn't want to clutter up the page with a lot of text at once.
 
 
