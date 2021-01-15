@@ -1,6 +1,6 @@
 ESSENTIALISM
 
-This project started at a group project at Lambda school. I worked with a team of six, plus myself. I was responsible for the marketing page and the about me. I used static HTML and CSS with just a hint of JS for the slideshow. I went back after Lambda to give this page a makeover using all the new CSS I had learned since then. I also had to adjust the responsiveness and make my HTML more semantic.
+This project started at a group project at Lambda school. I worked with a team of six, plus myself. I was responsible for the marketing page and the about us. I used static HTML and CSS with just a hint of JS for the slideshow. I went back after Lambda to give this page a makeover using all the new CSS I had learned since then. I also had to adjust the responsiveness and make my HTML more semantic.
 
 
 The other team members were supposed to be designing the rest of the site but they hit some snags and because of that the sign up/login buttons are broken.
