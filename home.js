@@ -1,50 +1,40 @@
-
-var modal = document.getElementsByClassName("modal");
-var btn = document.getElementsByClassName("myBtn");
-var span = document.getElementsByClassName("close");
-
-btn[0].onclick = function () {
-  modal[0].style.display = "block";
-};
-btn[1].onclick = function () {
-  modal[1].style.display = "block";
-};
-btn[2].onclick = function () {
-  modal[2].style.display = "block";
-};
-btn[3].onclick = function () {
-  modal[3].style.display = "block";
-};
-btn[4].onclick = function () {
-  modal[4].style.display = "block";
-};
-btn[5].onclick = function () {
-  modal[5].style.display = "block";
-};
-
-
-span[0].onclick = function () {
-  modal[0].style.display = "none";
-};
-span[1].onclick = function () {
-  modal[1].style.display = "none";
-};
-span[2].onclick = function () {
-  modal[2].style.display = "none";
-};
-span[3].onclick = function () {
-  modal[3].style.display = "none";
-};
-span[4].onclick = function () {
-  modal[4].style.display = "none";
-};
-span[5].onclick = function () {
-  modal[5].style.display = "none";
-};
-
-
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+(function nearbyEl() {
+  "use strict";
+  function closestEl(el, selector) {
+    var doc = el.document || el.ownerDocument;
+    var matches = doc.querySelectorAll(selector);
+    var i;
+    while (el) {
+      i = matches.length - 1;
+      while (i >= 0) {
+        if (matches.item(i) === el) {
+          return el;
+        }
+        i -= 1;
+      }
+      el = el.parentElement;
+    }
+    return el;
   }
-};
+  var modalBtns = document.querySelectorAll(".button");
+  modalBtns.forEach(function addBtnClickEvent(btn) {
+    btn.onclick = function showModal() {
+      var modal = btn.getAttribute("data-modal");
+      document.getElementById(modal).style.display = "block";
+    };
+  });
+
+  var closeBtns = document.querySelectorAll(".close");
+  closeBtns.forEach(function addCloseClickEvent(btn) {
+    btn.onclick = function closeModal() {
+      var modal = closestEl(btn, ".modal");
+      modal.style.display = "none";
+    };
+  });
+
+  window.onclick = function closeOnClick(event) {
+    if (event.target.className === "modal") {
+      event.target.style.display = "none";
+    }
+  };
+})();
