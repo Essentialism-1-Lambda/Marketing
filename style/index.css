@@ -46,11 +46,13 @@ table {
 	border-spacing: 0;
 }
 body {
-  background: #333;
+  background:black;
   padding-top: 5em;
   display: flex;
   justify-content: center;
-  color:white;
+  border: #13ca91 double 10px;
+  border-radius: 30% 80% 20% 40%;
+  padding:8%;
 }
 .typing p {
   white-space: nowrap;
@@ -60,14 +62,20 @@ body {
   width:100%;
 }
 .typing p:nth-child(1) {
-  animation: type 4s steps(40, end);
-  animation-fill-mode: forwards;
+  opacity:0;
+  animation: type 2s steps(40, end);
+  animation-fill-mode: both;
+  color:#ff9472;
 }
 .typing p:nth-child(2) {
   opacity: 0;
-  animation: type2 4s steps(40, end);
-  animation-delay: 5s;
-  animation-fill-mode: forwards;
+  animation: type2 2.5s steps(40, end);
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  color:#13ca91;
+}
+span{
+  color:#ff9472
 }
 .line-two{
     margin-top:20%;
@@ -79,13 +87,15 @@ font-size:2rem;
 text-align: center;
 opacity: 0;
 width:100%;
-animation: delay-nav 5s steps(40,end);
+animation: delay-nav 2.5s steps(40,end);
 animation-fill-mode: both;
-animation-delay:10s;
+animation-delay:4s;
 margin-top:20%;
 }
 .delay-nav a{
-    color:white;
+    color:#13ca91;
+    text-decoration: none;
+    border-bottom:1px double #ff9472;
 }
 @keyframes delay-nav {
  100% {
@@ -94,20 +104,11 @@ margin-top:20%;
 }
 
 @keyframes type {
-  0% {
-    width: 0;
-  }
   100% {
-    border: none;
+    opacity:1;
   }
 }
   @keyframes type2 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
   100% {
     opacity: 1;
   }

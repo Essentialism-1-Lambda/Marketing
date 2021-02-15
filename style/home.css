@@ -46,13 +46,29 @@ table {
 	border-spacing: 0;
 }
 body {
-  background: #333;
+  background:black;
   padding-top: 5em;
   display: flex;
   flex-direction:column;
   align-items:space-between;
   justify-content: center;
-  color:white;
+}
+header{
+    text-align:center;
+    margin:5%;
+    margin-bottom:5%;
+    border-bottom: double 5px #ff9472;
+    border-top:double 5px #13ca91;
+    padding:5%;
+}
+header h1{
+  margin-bottom:5%;
+  font-size:3rem;
+  color:#ff9472;
+}
+header h2{
+  font-size:2rem;
+  color:#13ca91;
 }
 .main-content{
     display:flex;
@@ -61,37 +77,32 @@ body {
     justify-content:center;
     align-items:space-between;
 }
-header{
-    text-align:center;
-    margin:5%;
-    font-size:2rem;
-}
 .cards{
     display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    align-items:space-around;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap:wrap;
-    text-align: center;
-    width:100%;
-}
-  
+  }
+
 .card{
-    width:27%;
+    width:30%;
+    padding:10%;
     margin:2%;
-    height:40vh;
-    border:5px solid black;
-    text-align:center;
-    margin-bottom:5%;
-    color:black;
+    border:3px double #ff9472;
+     border-radius: 30% 80% 20% 40%;
     display:flex;
     flex-direction:column;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-    background-color:antiquewhite;
-}
+    font-size:1.5rem;
+
+  }
+  .card h3{
+    font-size:1.1rem;
+    color:#13ca91;
+  }
 .card:hover{
-transform: scale(1.2);
+transform: scale(1.1);
 }
 .card .button{
   border:none;
@@ -99,6 +110,28 @@ transform: scale(1.2);
   width:30%;
   background-color:transparent;
   margin-bottom:7%;
+}
+.line h4{
+  font-size:2rem;
+  color:#ff9472;
+}
+.line .different-dots{
+  color:#13ca91;
+}
+.different-border{
+border:3px double #13ca91;
+width:30%;
+padding:10%;
+margin:2%;
+ border-radius: 30% 80% 20% 40%;
+display:flex;
+flex-direction:column;
+justify-content: space-around;
+align-items: center;
+font-size:1.5rem;
+}
+.different-border h3{
+  color:#ff9472;
 }
 .modal {
   display: none; 
