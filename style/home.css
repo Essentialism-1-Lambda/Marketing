@@ -55,20 +55,39 @@ body {
 }
 header{
     text-align:center;
-    margin:5%;
+    margin-top:1%;
     margin-bottom:5%;
     border-bottom: double 5px #ff9472;
     border-top:double 5px #13ca91;
     padding:5%;
+    background-image:url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-s49-jir-1860-chim-02.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=715d701e138167c12f5abf7c32b74a0f");
+    height:65vh;
 }
 header h1{
-  margin-bottom:5%;
+  margin-bottom:2%;
   font-size:3rem;
   color:#ff9472;
+  margin-top:12%;
 }
 header h2{
   font-size:2rem;
   color:#13ca91;
+}
+nav{
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  margin-bottom:5%;
+}
+nav a{
+  color:#ff9472;
+}
+nav .different-anchor{
+  color:#13ca91;
+}
+.arrow{
+  font-size:2.5rem;
+  color:#ff9472;
 }
 .main-content{
     display:flex;
@@ -86,20 +105,21 @@ header h2{
 
 .card{
     width:30%;
-    padding:10%;
     margin:2%;
-    border:3px double #ff9472;
-     border-radius: 30% 80% 20% 40%;
     display:flex;
     flex-direction:column;
-    justify-content: space-around;
-    align-items: center;
-    font-size:1.5rem;
+    justify-content: center;
+    border:5px double #ff9472;
+    padding:5%;
+     border-radius: 30% 80% 20% 40%;
+     height:60vh;
+    background-image:url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm200-ning-31.jpg?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=8bac5f8d5e0c412fa11e4c17d5d99484")
 
   }
   .card h3{
-    font-size:1.1rem;
+    font-size:1.2rem;
     color:#13ca91;
+    text-align:match-parent;
   }
 .card:hover{
 transform: scale(1.1);
@@ -119,19 +139,17 @@ transform: scale(1.1);
   color:#13ca91;
 }
 .different-border{
-border:3px double #13ca91;
+border:5px double #13ca91;
 width:30%;
-padding:10%;
 margin:2%;
  border-radius: 30% 80% 20% 40%;
-display:flex;
-flex-direction:column;
-justify-content: space-around;
-align-items: center;
-font-size:1.5rem;
+ height:60vh;
+background-image:url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm200-adj-01-d.jpg?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=b0a15aa2fa385943d26051f59dba5206")
 }
 .different-border h3{
   color:#ff9472;
+  font-size:1.2rem;
+  text-align:center;
 }
 .modal {
   display: none; 
@@ -147,11 +165,16 @@ font-size:1.5rem;
   color:black;
 }
 .modal-content {
-  background-color: #fefefe;
+  background-color: #333;
   margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
+  padding: 10%;
+  border: 5px double #13ca91;
   width: 80%;
+  border-radius:30% 80% 20% 40%;
+}
+.modal-content p{
+  color:#ff9472;
+  padding:20%;
 }
 .close {
     color: #aaa;
