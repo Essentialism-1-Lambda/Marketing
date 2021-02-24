@@ -165,16 +165,17 @@ background-image:url("https://img.rawpixel.com/s3fs-private/rawpixel_images/webs
   color:black;
 }
 .modal-content {
-  background-color: #333;
+  background-color: black;
   margin: 15% auto;
   padding: 10%;
   border: 5px double #13ca91;
-  width: 80%;
+  width: 50%;
   border-radius:30% 80% 20% 40%;
 }
 .modal-content p{
   color:#ff9472;
-  padding:20%;
+  font-size:.9rem;
+  margin:1%;
 }
 .close {
     color: #aaa;
