@@ -1,0 +1,107 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size:100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+* {box-sizing:border-box}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    background-color:#333;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.form{
+    display:flex;
+    flex-direction:column;
+    padding:5%;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    border-left:2px solid #ff4972;
+    border-right:2px solid #13ca91;
+    border-top:2px solid #ff4972;
+    border-bottom:2px solid #13ca91;
+    margin-bottom:5%;
+
+}
+input{
+    margin-bottom:10%;
+    width:90%;
+}
+label{
+    color:#ff9472;
+}
+.different-color{
+    color:#13ca91;
+}
+nav{
+    display:flex;
+    justify-content: center;
+    align-items: space-evenly;
+    width:100%;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+nav a{
+    color:#ff9472;
+    width:25%;
+    text-align:center;
+}
+nav a:hover{
+    transform:scale(1.1);
+}
+.login-link{
+    color:#13ca91;
+}
+.login-link:visited{
+    color:#ff9472;
+}
+.login-link:hover{
+    transform:scale(1.1);
+}
+h1{
+    color:#ff9472;
+    font-size:3rem;
+    margin:5%;
+}

@@ -46,13 +46,12 @@ table {
 	border-spacing: 0;
 }
 body {
-  background:black;
-  padding-top: 5em;
+  background:#333;
   display: flex;
   justify-content: center;
   border: #13ca91 double 10px;
   border-radius: 30% 80% 20% 40%;
-  padding:8%;
+  padding:5%;
 }
 .typing p {
   white-space: nowrap;
@@ -77,32 +76,41 @@ body {
 span{
   color:#ff9472
 }
-.line-two{
-    margin-top:20%;
+.line-one{
+  margin-top:5%;
+  margin-bottom:10%;
 }
 .delay-nav{
-white-space: nowrap;
-overflow: hidden;
-font-size:2rem;
-text-align: center;
-opacity: 0;
-width:100%;
-animation: delay-nav 2.5s steps(40,end);
-animation-fill-mode: both;
-animation-delay:4s;
-margin-top:20%;
+  white-space: nowrap;  
+  overflow: hidden;
+  font-size:2rem;
+  text-align: center;
+  opacity: 0;
+  width:100%;
+  animation: delay-nav 2.5s steps(40,end);
+  animation-fill-mode: both;
+  animation-delay:4s;
+  margin-top:20%;
+  display:flex;
+  flex-direction: column;
 }
 .delay-nav a{
-    color:#13ca91;
-    text-decoration: none;
-    border-bottom:1px double #ff9472;
+  color:#13ca91;
+  text-decoration: none;
+  margin:1%;
 }
+.delay-nav a:hover{
+  transform:scale(1.1);
+}
+.delay-nav a:nth-child(1){
+  color:#ff9472;
+}
+
 @keyframes delay-nav {
  100% {
    opacity: 1;
  }
 }
-
 @keyframes type {
   100% {
     opacity:1;
