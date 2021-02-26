@@ -62,7 +62,6 @@ header{
     padding:5%;
     background-image:url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-s49-jir-1860-chim-02.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=715d701e138167c12f5abf7c32b74a0f");
     height:65vh;
-
 }
 header h1{
   margin-bottom:2%;
@@ -122,8 +121,8 @@ nav .different-anchor{
     color:#13ca91;
     text-align:match-parent;
   }
-.card:hover{
-transform: scale(1.1);
+  .card:hover{
+    transform: scale(1.1);
 }
 .card .button{
   border:none;
@@ -140,12 +139,12 @@ transform: scale(1.1);
   color:#13ca91;
 }
 .different-border{
-border:5px double #13ca91;
-width:30%;
-margin:2%;
- border-radius: 30% 80% 20% 40%;
- height:60vh;
-background-image:url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm200-adj-01-d.jpg?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=b0a15aa2fa385943d26051f59dba5206")
+  border:5px double #13ca91;
+  width:30%;
+  margin:2%;
+  border-radius: 30% 80% 20% 40%;
+  height:60vh;
+  background-image:url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm200-adj-01-d.jpg?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=b0a15aa2fa385943d26051f59dba5206")
 }
 .different-border h3{
   color:#ff9472;
@@ -191,10 +190,10 @@ background-image:url("https://img.rawpixel.com/s3fs-private/rawpixel_images/webs
 
 }
 .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .close:hover,

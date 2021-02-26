@@ -1,13 +1,13 @@
-// Get the modal
+// GET THE MODAL
 var modal = document.getElementsByClassName("modal");
 
-// Get the button that opens the modal
+// GET THE BUTTON THAT OPENS MODAL
 var btn = document.getElementsByClassName("button");
 
-// Get the <span> element that closes the modal
+// GETTING SPAN ELEMENT
 var span = document.getElementsByClassName("close");
 
-// When the user clicks the button, open the modal
+// OPEN MODAL UPON BUTTON PRESS
 btn[0].onclick = function () {
   modal[0].style.display = "block";
 };
@@ -27,7 +27,7 @@ btn[4].onclick = function () {
 btn[5].onclick = function () {
   modal[5].style.display = "block";
 };
-// When the user clicks on <span> (x), close the modal
+// CLOSE MODAL WITH X
 span[0].onclick = function () {
   modal[0].style.display = "none";
 };
