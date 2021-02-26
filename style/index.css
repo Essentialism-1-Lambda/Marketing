@@ -107,6 +107,7 @@ span{
   color:#ff9472;
 }
 
+
 @keyframes delay-nav {
  100% {
    opacity: 1;
@@ -120,5 +121,29 @@ span{
   @keyframes type2 {
   100% {
     opacity: 1;
+  }
+}
+@media(max-width:800px){
+  body{
+    border:none;
+
+  }
+  .typing p{
+    font-size:2rem;
+    margin-top:30%;
+  }
+  .delay-nav a{
+    font-size:1.5rem;
+  }
+}
+@media(max-width:500px){
+  .typing p{
+    font-size:1.5rem;
+  }
+  .delay-nav{
+    margin-top:60%;
+  }
+  .delay-nav a{
+    font-size:1.2rem;
   }
 }
