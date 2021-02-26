@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size:100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+* {box-sizing:border-box}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    background-color:#333;
+}
+header{
+    text-align:center;
+    margin-top:7%;
+    margin-bottom:15%;
+    border-bottom: double 5px #ff9472;
+    border-top:double 5px #13ca91;
+    padding:5%;
+    background-image:url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-s49-jir-1860-chim-02.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=715d701e138167c12f5abf7c32b74a0f");
+    height:65vh;
+}
+nav{
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  margin-bottom:5%;
+}
+nav a{
+  color:#ff9472;
+}
+nav .different-anchor{
+  color:#13ca91;
+}
+.arrow{
+  font-size:2.5rem;
+  color:#ff9472;
+}
+header h1{
+  margin-bottom:2%;
+  font-size:3rem;
+  color:#ff9472;
+  margin-top:12%;
+}
+header h2{
+  font-size:2rem;
+  color:#13ca91;
+}
+.main-content{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.about{
+    width:90%;
+    margin:5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-top:2px double #ff9471;
+border-bottom:2px double#13ca91;
+border-left:2px double#ff9472;
+border-right:2px double#13ca91;
+padding:5%;
+}
+.about p{
+    color:#ff9472;
+    margin:5%;
+}
+.different-p p{
+    color:#13ca91;
+}
+.about h3{
+    color:#13ca91;
+    text-align:center;
+}
+.different-h3 h3{
+    color:#ff9472;
+}
+.about-text{
+    display:flex;
+    flex-direction:column;
+}
+.contact{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding:3%;
+  color:#ff9472;
+}
+.contact a{
+  color:#13ca91;
+}
+

@@ -203,3 +203,17 @@ background-image:url("https://img.rawpixel.com/s3fs-private/rawpixel_images/webs
     text-decoration: none;
     cursor: pointer;
 }
+.footer-nav{
+  margin:10%;
+}
+.contact{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding:3%;
+  color:#ff9472;
+}
+.contact a{
+  color:#13ca91;
+}
