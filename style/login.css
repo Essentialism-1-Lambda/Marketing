@@ -67,6 +67,7 @@ body{
 }
 .signup-link{
     color:#13ca91;
+    font-size:2rem;
 }
 .signuo-link:visited{
     color:#ff9472;
@@ -80,6 +81,7 @@ input{
 }
 label{
     color:#ff9472;
+    font-size:2rem;
 }
 .different-color{
     color:#13ca91;
@@ -96,6 +98,7 @@ nav a{
     color:#ff9472;
     width:25%;
     text-align:center;
+    font-size:2rem;
 }
 nav a:hover{
     transform:scale(1.1)
@@ -104,6 +107,11 @@ h1{
     color:#ff9472;
     font-size:3rem;
     margin:5%;
+}
+button{
+    width:25%;
+    padding:2%;
+    font-size:1.3rem;
 }
 @media(max-width:800px){
     .form{
