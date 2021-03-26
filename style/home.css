@@ -65,12 +65,12 @@ header{
 }
 header h1{
   margin-bottom:2%;
-  font-size:3rem;
+  font-size:3.2rem;
   color:#ff9472;
   margin-top:12%;
 }
 header h2{
-  font-size:2rem;
+  font-size:2.2rem;
   color:#13ca91;
 }
 nav{
@@ -81,12 +81,13 @@ nav{
 }
 nav a{
   color:#ff9472;
+  font-size:2rem;
 }
 nav .different-anchor{
   color:#13ca91;
 }
 .arrow{
-  font-size:2.5rem;
+  font-size:3rem;
   color:#ff9472;
 }
 .main-content{
@@ -117,7 +118,7 @@ nav .different-anchor{
 
   }
   .card h3{
-    font-size:1.2rem;
+    font-size:2rem;
     color:#13ca91;
     text-align:match-parent;
   }
@@ -148,7 +149,7 @@ nav .different-anchor{
 }
 .different-border h3{
   color:#ff9472;
-  font-size:1.2rem;
+  font-size:2rem;
   text-align:center;
 }
 .modal {
@@ -180,13 +181,13 @@ nav .different-anchor{
 }
 .modal-content p{
   color:#ff9472;
-  font-size:.9rem;
+  font-size:1.5rem;
   margin:1%;
 }
 .modal-content h2{
   color:#13ca91;
   margin-bottom:5%;
-  font-size:2rem;
+  font-size:2.2rem;
 
 }
 .close {
@@ -212,6 +213,7 @@ nav .different-anchor{
   align-items:center;
   padding:3%;
   color:#ff9472;
+  font-size:1.5rem;
 }
 .contact a{
   color:#13ca91;
@@ -252,5 +254,8 @@ font-size:1rem;
   }
   nav a{
     font-size:.9rem;
+  }
+  .contact{
+    font-size:1rem;
   }
 }

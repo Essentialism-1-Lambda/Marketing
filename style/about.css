@@ -66,22 +66,23 @@ nav{
 }
 nav a{
   color:#ff9472;
+  font-size:2rem;
 }
 nav .different-anchor{
   color:#13ca91;
 }
 .arrow{
-  font-size:2.5rem;
+  font-size:3rem;
   color:#ff9472;
 }
 header h1{
   margin-bottom:2%;
-  font-size:3rem;
+  font-size:3.2rem;
   color:#ff9472;
   margin-top:12%;
 }
 header h2{
-  font-size:2rem;
+  font-size:2.2rem;
   color:#13ca91;
 }
 .main-content{
@@ -105,6 +106,7 @@ header h2{
 .about p{
     color:#ff9472;
     margin:5%;
+    font-size:1.5rem;
 }
 .different-p p{
     color:#13ca91;
@@ -112,6 +114,7 @@ header h2{
 .about h3{
     color:#13ca91;
     text-align:center;
+    font-size:3rem;
 }
 .different-h3 h3{
     color:#ff9472;
@@ -127,6 +130,7 @@ header h2{
   align-items:center;
   padding:3%;
   color:#ff9472;
+  font-size:1.5rem;
 }
 .contact a{
   color:#13ca91;
@@ -153,6 +157,9 @@ header h2{
   header h2{
     font-size:1.5rem;
   }
+  .about-text h3{
+  font-size:1.5rem;
+  }
   nav a{
     font-size:.8rem;
   }
@@ -161,5 +168,8 @@ header h2{
   }
   .about{
     border:none;
+  }
+  .contact{
+    font-size:1rem;
   }
 }
