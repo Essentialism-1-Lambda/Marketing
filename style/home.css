@@ -72,12 +72,12 @@ body {
 .home-header .header-title{
   margin-bottom:2%;
   font-size:2.5rem;
-  color:#333;
+  color:black;
   text-shadow:1px 1px #13ca91;
 }
 .home-header .header-second-title{
   font-size:2.2rem;
-  color:#333;
+  color: black;
   text-shadow:1px 1px #13cA91;
 }
 .nav{
@@ -88,7 +88,7 @@ body {
 }
 .nav .nav-link{
   font-size:1.5rem;
-  color:#333;
+  color:black;
   text-shadow:1px 1px #13ca91;
 }
 .nav .nav-link:hover{
@@ -97,8 +97,12 @@ body {
 }
 .arrow{
   font-size:3rem;
-  color:#333;
+  color:black;
   text-shadow:1px 1px #13ca91;
+}
+.arrow:hover{
+  transform:scale(1.1);
+  color:#13ca91;
 }
 
 .main-content{
@@ -209,8 +213,15 @@ body {
   color:#ff9472;
   font-size:1.3rem;
 }
+.footer-nav-link:hover{
+  transform:scale(1.1);
+  color:#13ca91;
+}
 .footer-different-anchor{
   color:#13ca91;
+}
+.footer-different-anchor:hover{
+  color:#ff9472;
 }
 .contact{
   display:flex;
@@ -290,10 +301,31 @@ body {
     display:none;
   }
   .card .card-title{
-font-size:1.3rem;
+font-size:1.1rem;
+  }
+  .home-header .nav{
+    flex-direction:column;
   }
   .nav .nav-link{
     font-size:1rem;
+    margin:2%;
+    border:1px solid #13ca91;
+    text-decoration:none;
+    padding:1%;
+  }
+  .footer .nav{
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+  }
+  .footer-nav-link{
+    font-size:1rem;
+    margin:2%;
+    border:1px solid #13ca91;
+    text-decoration:none;
+    padding:1%;
+    width:80%;
+    text-align:center;
   }
   .contact{
     font-size:1rem;
