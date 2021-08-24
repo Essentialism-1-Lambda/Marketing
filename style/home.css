@@ -53,104 +53,103 @@ body {
   align-items:space-between;
   justify-content: center;
 }
-header{
+.home-header{
     text-align:center;
     margin-top:1%;
     margin-bottom:10%;
-    border-bottom: double 5px #ff9472;
-    border-top:double 5px #13ca91;
-    padding:5%;
+    border :double 10px #13ca91;
     background-image:url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-s49-jir-1860-chim-02.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=715d701e138167c12f5abf7c32b74a0f");
-    height:65vh;
+    height:75vh;
+    padding:3%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+    margin-left:3%;
+    margin-right:3%;
 }
-header h1{
+
+.home-header .header-title{
   margin-bottom:2%;
-  font-size:3.2rem;
-  color:#ff9472;
-  margin-top:12%;
+  font-size:2.5rem;
+  color:#333;
+  text-shadow:1px 1px #13ca91;
 }
-header h2{
+.home-header .header-second-title{
   font-size:2.2rem;
-  color:#13ca91;
+  color:#333;
+  text-shadow:1px 1px #13cA91;
 }
-nav{
+.nav{
   display:flex;
-  justify-content: space-around;
-  align-items:center;
+  justify-content:space-between;
   margin-bottom:5%;
+  width:80%;
 }
-nav a{
-  color:#ff9472;
-  font-size:2rem;
+.nav .nav-link{
+  font-size:1.5rem;
+  color:#333;
+  text-shadow:1px 1px #13ca91;
 }
-nav .different-anchor{
+.nav .nav-link:hover{
+  transform:scale(1.1);
   color:#13ca91;
 }
 .arrow{
   font-size:3rem;
-  color:#ff9472;
+  color:#333;
+  text-shadow:1px 1px #13ca91;
 }
+
 .main-content{
     display:flex;
     flex-direction:column;
-    flex-wrap:wrap;
+    align-items: center;
     justify-content:center;
-    align-items:space-between;
 }
 .cards{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap:wrap;
-  }
+  display:flex;
+  flex-direction:column;
+}
+.cards-line{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
 
 .card{
     width:30%;
-    margin:2%;
+    height:60vh;
+    border:5px double #13ca91;
+    background-image:url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm200-ning-31.jpg?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=8bac5f8d5e0c412fa11e4c17d5d99484");
     display:flex;
     flex-direction:column;
-    justify-content: center;
-    border:5px double #ff9472;
-    padding:5%;
-     border-radius: 30% 80% 20% 40%;
-     height:60vh;
-    background-image:url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm200-ning-31.jpg?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=8bac5f8d5e0c412fa11e4c17d5d99484")
+    align-items:center;
+    justify-content:center;
+    padding:2%;
+    margin:3%;
+    margin-bottom:5%;
+    
 
   }
-  .card h3{
-    font-size:2rem;
-    color:#13ca91;
-    text-align:match-parent;
-  }
-  .card:hover{
+.card:hover{
     transform: scale(1.1);
 }
-.card .button{
-  border:none;
-  height:auto;
-  width:30%;
-  background-color:transparent;
-  margin-bottom:7%;
+.card-title{
+  text-align:center;
+  font-size:1.2rem;
 }
-.line h4{
-  font-size:2rem;
+.line .dots{
+  font-size:1.5rem;
   color:#ff9472;
 }
 .line .different-dots{
   color:#13ca91;
 }
 .different-border{
-  border:5px double #13ca91;
-  width:30%;
-  margin:2%;
-  border-radius: 30% 80% 20% 40%;
-  height:60vh;
-  background-image:url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm200-adj-01-d.jpg?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=b0a15aa2fa385943d26051f59dba5206")
-}
-.different-border h3{
-  color:#ff9472;
-  font-size:2rem;
-  text-align:center;
+  font-size:1rem;
+  border:5px double #ff9472;
+  background-image:url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm200-adj-01-d.jpg?w=600&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=b0a15aa2fa385943d26051f59dba5206");
 }
 .modal {
   display: none; 
@@ -179,12 +178,12 @@ nav .different-anchor{
   flex-direction:column;
   align-items:center;
 }
-.modal-content p{
+.modal-content .modal-paragraph{
   color:#ff9472;
   font-size:1.5rem;
   margin:1%;
 }
-.modal-content h2{
+.modal-content .modal-header{
   color:#13ca91;
   margin-bottom:5%;
   font-size:2.2rem;
@@ -203,8 +202,15 @@ nav .different-anchor{
     text-decoration: none;
     cursor: pointer;
 }
-.footer-nav{
+.footer .nav{
   margin:10%;
+}
+.footer-nav-link{
+  color:#ff9472;
+  font-size:1.3rem;
+}
+.footer-different-anchor{
+  color:#13ca91;
 }
 .contact{
   display:flex;
@@ -215,22 +221,45 @@ nav .different-anchor{
   color:#ff9472;
   font-size:1.5rem;
 }
-.contact a{
+.contact .contact-link{
   color:#13ca91;
 }
+.contact .different-contact-color{
+ color: #ff9472;
+}
+
 @media(max-width:800px){
-  header{
+  .home-header{
    background-image: none;
-   height:30vh;
+   height:50vh;
+  }
+  .home-header .header-title{
+    font-size:2.5rem;
+    color:#ff9472;
+    text-shadow:none;
+  }
+  .home-header .header-second-title{
+    font-size:2rem;
+    color:#13ca91;
+    text-shadow:none;
+  }
+  .nav .nav-link{
+    font-size:1.3rem;
+    color:#13ca91;
+    text-shadow:none;
+  }
+  .nav .different-anchor{
+    color:#ff9472;
   }
   .cards{
     flex-direction:column;
     flex-wrap:nowrap
   }
   .card{
-    width:60%;
-    border:none;
-    height:30vh;
+    width:35%;
+  }
+  .line{
+    display:none;
   }
   .modal-content{
     width:80%;
@@ -239,21 +268,32 @@ nav .different-anchor{
     display:none;
   }
 }
-@media(max-width:500px){
- header h1{
+@media(max-width:600px){
+  .home-header{
+    flex-direction:column;
+    margin-bottom:30%;
+  }
+  .cards-line{
+    flex-direction:column;
+  }
+  .card{
+    width:80%;
+    height:40vh;
+  }
+ .home-header .header-title{
     font-size:2rem;
   }
-  header h2{
+  .home-header .header-second-title{
     font-size:1.5rem;
   }
   .line{
     display:none;
   }
-  .card h3{
-font-size:1rem;
+  .card .card-title{
+font-size:1.3rem;
   }
-  nav a{
-    font-size:.9rem;
+  .nav .nav-link{
+    font-size:1rem;
   }
   .contact{
     font-size:1rem;
